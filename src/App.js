@@ -1,12 +1,13 @@
-import Counter from "./components/Counter";
-import Auth from "./components/Auth";
+import Cart from './components/Cart/Cart';
+import Layout from './components/Layout/Layout';
+import Products from './components/Shop/Products';
 
 function App() {
   return (
-    <div className="App">
-      <Counter />
-      <Auth />
-    </div>
+    <Layout>
+      <Cart />
+      <Products />
+    </Layout>
   );
 }
 
